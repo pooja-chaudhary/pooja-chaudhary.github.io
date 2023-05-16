@@ -7,7 +7,7 @@ body {
   background-color: #E1FFEE;
 }
 
-/* @media (min-width: 992px)  */
+
 li a {
   margin-left: 30px;
   color: #42855b;
@@ -37,27 +37,32 @@ a:hover{
   width: 100px;
   height: 100px;
 }
-.parent-div{
-  position:relative;
-}
-.center {
-  margin-left: auto;
-  margin-right: auto;
+
+.top_img {
   width: 100%;
-  height: 650px;
+  height: 600px;
 }
+
+.flower_img_Section{
+position: relative;
+text-align: center;
+
+}
+
 .topdiv{
-  text-align: center;
+  position:absolute;
+  top:50%;
+  left:50%; 
+  transform: translate(-50%, -50%);
   font-family: 'Sacramento', cursive;
   color:#42855b;
-  position:absolute;
-  top: 100px;
-  left:500px;
+  line-height: 2;
 
 }
 
-.toph1{
+.topdiv h1{
   font-size:120px;
+  height: 100px;
 }
 
 .top-p{ 
